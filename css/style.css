@@ -28,7 +28,15 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.text-ligth{
+    color: var(--ligth) !important;
+    
+}
+
 .text-muted{ color: var(--ligth) !important;}
+
+.text-muted-x{ color: var(--muted) !important;}
+
 
 .btn{
     font-weight: 700;
@@ -76,4 +84,14 @@ body {
 }
 .card{
     border-radius: 2rem, 2rem 0 0;
+}
+
+.card-rounded-top{
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+}
+
+.card-rounded-bottom{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
