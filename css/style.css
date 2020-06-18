@@ -83,7 +83,7 @@ body {
     min-height: 1000px;
 }
 .card{
-    border-radius: 2rem, 2rem 0 0;
+    border-radius: 1rem;
 }
 
 .card-rounded-top{
@@ -94,4 +94,65 @@ body {
 .card-rounded-bottom{
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+}
+
+
+.shadow-container{
+    box-shadow: 0, .5rem, .5rem, 0 rgba(0, 0, 0, .5);
+}
+
+.bg-image-xx{
+    background-image: url(../img/bg-dark-3.svg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.resalt-container{
+    background: var(--dark);
+}
+
+
+.form-control {
+    background-color: var(--dark-xx);
+    height: unset;
+    padding: .8rem 1rem;
+    border: 0;
+}
+
+.form-control:focus {
+    background-color: var(--dark-xx);
+}
+
+
+@media (max-width: 575.98px) {
+    .w-75 {
+        width: 100% !important;
+    }
+    .py-5 {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .btn {
+        width: 100%;
+    }
+    .list-inline-item {
+        display: block;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .list-inline-item {
+        display: inline-block;
+    }
+    footer .text-right {
+        text-align: center !important;
+    }
+    footer small {
+        display: block;
+    }
+    .container{
+        margin-top: 50px !important;
+    }
+ 
 }
